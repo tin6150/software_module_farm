@@ -40,9 +40,37 @@ But most if not all are container based, they are intended to be used via singul
     - 1.0.1-jgrg   [custom container with db for JGRG]
 - beast
     - ...
-- phyltools
-    - ...
-
+- phyltool
+    - u20.04 has: 
+  - NCLconverter
+  - art
+  - beast2-mcmc
+  - clearcut
+  - clustalo
+  - clustalw
+  - clustalx
+  - examl
+  - figtree
+  - iqtree
+  - mafft
+  - mb
+  - metaphlan2
+  - muscle
+  - njplot
+  - phast
+  - phyml
+  - prokka
+  - raxmlHPC
+  - roary
+  - run_gubbins
+  - seaview
+  - snp-sites
+  - squizz
+  - sumtrees
+  - tree-puzzle
+- python ?
+- R ?
+- 
 
 - perf_tools
     - idrac

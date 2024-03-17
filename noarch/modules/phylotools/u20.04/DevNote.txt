@@ -1,0 +1,32 @@
+
+
+think one of the git repo that i was building it has a script that create these links:
+
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 NCLconverter -> phylotool.sif
+-rw-rw-r-- 1 tin cgrlsw        953 Oct 25  2022 ReadMe.txt
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 art -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 beast2-mcmc -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 clearcut -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 clustalo -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 clustalw -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 clustalx -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 examl -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 figtree -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 iqtree -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 mafft -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 mb -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 metaphlan2 -> phylotool.sif                                                                                                                                      
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 muscle -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 njplot -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 phast -> phylotool.sif
+-rwxrwxr-x 1 tin cgrlsw 6018539520 Oct 25  2022 phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 phyml -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 prokka -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 raxmlHPC -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 roary -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 26  2022 run_gubbins -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 seaview -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 snp-sites -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 squizz -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 sumtrees -> phylotool.sif
+lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 tree-puzzle -> phylotool.sif
