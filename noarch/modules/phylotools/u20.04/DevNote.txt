@@ -30,3 +30,13 @@ lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 snp-sites -> phylotool.sif
 lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 squizz -> phylotool.sif
 lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 sumtrees -> phylotool.sif
 lrwxrwxrwx 1 tin cgrlsw         13 Oct 25  2022 tree-puzzle -> phylotool.sif
+
+
+
+for now, did
+
+ls  -1 | grep -v sif | grep -v ReadMe | xargs
+
+tar cf copy_sym_links.tar NCLconverter art beast2-mcmc clearcut clustalo clustalw clustalx examl figtree iqtree mafft mb metaphlan2 muscle njplot phast phyml prokka raxmlHPC roary run_gubbins seaview snp-sites squizz sumtrees tree-puzzle  
+
+
