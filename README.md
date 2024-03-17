@@ -38,8 +38,6 @@ But most if not all are container based, they are intended to be used via singul
 - abricate
     - 1.0.1        [bioconda]
     - 1.0.1-jgrg   [custom container with db for JGRG]
-- beast
-    - ...
 - phyltool
     - u20.04 has: 
   - NCLconverter
@@ -68,6 +66,22 @@ But most if not all are container based, they are intended to be used via singul
   - squizz
   - sumtrees
   - tree-puzzle
+
+To be readded to this repo tree:
+
+- beast
+    - 2.4.7        [local build by Nicolas?]
+    - 2.6.4        [versions: beagle, noOCL]
+- ezclermont
+- integron_finder
+- mlst
+- paup
+- prokka
+- snippy
+- unicycler
+
+For consideration :
+
 - python ?
 - R ?
 - 
