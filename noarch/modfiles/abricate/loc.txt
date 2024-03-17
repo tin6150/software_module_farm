@@ -1,0 +1,1 @@
+/clusterfs/vector/home/groups/software/sl-7.x86_64/modfiles/abricate

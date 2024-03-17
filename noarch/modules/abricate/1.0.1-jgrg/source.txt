@@ -1,0 +1,2 @@
+## this version has abricate with custom jgrg db.  
+singularity pull --name abricate.sif docker://ghcr.io/tin6150/abricate:jgrg
