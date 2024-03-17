@@ -1,1 +1,10 @@
+run this cmd in current dir
 singularity pull --name abricate.sif quay.io/biocontainers/abricate
+
+copy/move resulting .sift to the SMF
+
+the abricate file is a script that call the container.
+this make it slightly easier for user to call it, 
+or when the container has multiple tools that need to be exposed.
+
+(see eg phylotools)
