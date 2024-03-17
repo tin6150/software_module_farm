@@ -83,7 +83,7 @@ To be readded to this repo tree:
 For consideration :
 
 - python ?
-- R ?
+- R ?        [with pacman, from r4eta or trim back from atlas]
 - 
 
 - perf_tools
