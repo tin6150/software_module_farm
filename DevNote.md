@@ -18,7 +18,7 @@ but cp for the files that are in the fs tree of this repo, so that git doesnt co
 copy/move resulting .sift to the SMF
 
 
-Some container image file (SIF) is just renamed as the program itself or has a link, eg:
+Historically, some container image file (SIF) is just renamed as the program itself or has a link, eg:
 
 (TBD, beast2 ?)
 (beast2 -> beast.somever.SIF ?) 
