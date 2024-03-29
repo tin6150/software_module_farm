@@ -1,0 +1,10 @@
+#%Module1.0
+proc ModulesHelp { } {
+        puts stderr "loads the environment for PAUP* 4.0a"
+}
+
+module-whatis "loads the environment for PAUP* 4.0a"
+
+set SW_DIR /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/paup/4.0a
+setenv PAUP_DIR $SW_DIR
+prepend-path PATH $SW_DIR

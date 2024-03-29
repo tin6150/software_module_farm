@@ -1,0 +1,13 @@
+#%Module1.0
+proc ModulesHelp { } {
+        puts stderr "loads the environment for mlst 2.19.0"
+}
+
+module-whatis "loads the environment for mlst 2.19.0"
+
+
+set MLST_DIR /global/software/vector/sl-7.x86_64/modules/mlst/2.19.0/
+setenv MLST_DIR $MLST_DIR
+prepend-path PATH $MLST_DIR
+
+#set SNIPPY_DIR /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/abricate/1.0.1

@@ -1,0 +1,5 @@
+/clusterfs/vector/home/groups/software/sl-7.x86_64/modules
+
+# oh, suppose to go to /global/software/vector/sl-7.x86_64/modules/abricate/1.0.1
+#                       /clusterfs/vector/home/groups/software/sl-7.x86_64/modules writable on ln000
+

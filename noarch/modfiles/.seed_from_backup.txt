@@ -1,0 +1,10 @@
+DIR=/clusterfs/vector/home/groups/software/sl-7.x86_64/modfiles
+
+F_list="ezclermont integron_finder mlst paup snippy"
+
+for F in $F_list; do
+	#      du -hs $DIR/$F
+	#echo cp -piR $DIR/$F  .
+	      cp -piR $DIR/$F  .
+done
+
