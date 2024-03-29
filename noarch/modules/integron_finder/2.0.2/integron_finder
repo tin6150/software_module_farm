@@ -1,0 +1,2 @@
+singularity exec /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/integron_finder/2.0.2/integron_finder.sif  /usr/local/bin/integron_finder $*
+# /global/software/vector/sl-7.x86_64/modules/

@@ -1,5 +1,7 @@
 run this cmd in current dir
 singularity pull --name abricate.sif quay.io/biocontainers/abricate
+singularity pull --name abricate.sif docker://quay.io/biocontainers/abricate:1.0.1--ha8f3691_1:w
+
 
 copy/move resulting .sift to the SMF
 

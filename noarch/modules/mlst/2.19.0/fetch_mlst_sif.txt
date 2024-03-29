@@ -1,0 +1,6 @@
+
+# eg install mlst
+cd /global/scratch/users/tin/cacheDir
+singularity pull --name mlst.sif docker://quay.io/biocontainers/mlst:2.19.0--hdfd78af_1  # on ln000 2023.0430
+sudo scp dtn:/global/scratch/users/tin/cacheDir/mlst.sif /global/software/vector/sl-7.x86_64/modules/mlst/2.19.0/ # on master using sudo
+

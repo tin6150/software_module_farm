@@ -1,0 +1,1 @@
+singularity pull --name snippy.sif docker://quay.io/biocontainers/snippy:4.6.0--hdfd78af_2

@@ -1,0 +1,3 @@
+something akin to
+singularity pull --name abricate.sif docker://quay.io/biocontainers/abricate:1.0.1--ha8f3691_1
+
