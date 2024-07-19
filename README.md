@@ -67,23 +67,38 @@ But most if not all are container based, they are intended to be used via singul
   - sumtrees
   - tree-puzzle
 
+
+ezclermont:
+0.7.0
+
+integron_finder:
+2.0.2
+
+mlst:
+2.19.0
+
+paup:
+4.0a
+
+prokka:
+1.14.5
+
+snippy:
+4.6.0
+
+unicycler:
+0.5.0
+
 To be readded to this repo tree:
 
 - beast
     - 2.4.7        [local build by Nicolas?]
     - 2.6.4        [versions: beagle, noOCL]
-- ezclermont
-- integron_finder
-- mlst
-- paup
-- prokka
-- snippy
-- unicycler
 
 For consideration :
 
 - python ?
-- R ?        [with pacman, from r4eta or trim back from atlas]
+- R/Rstudio ?        [with pacman, from r4eta or trim back from atlas]
 - 
 
 - perf_tools
