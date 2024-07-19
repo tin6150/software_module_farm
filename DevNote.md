@@ -4,11 +4,20 @@ inside each program dir
 run,
 
 eg
-noarch/modules/abricate/1.0.1/build.sh
+noarch/modules/abricate/1.0.1/Install.sh
+
+actually,  all this should be scripted to pull all container at once?
+get as close to "single button" install as possible.
+
+pre-populate with container download script in a standard way, then a script that does:
+Install_all.sh 
+  find . -name build.sh -exec {} \;
 
 
-maybe all this should be scripted to pull all container at once?
+but each program still have addtional customization 
 
+
+input arguments:
 have some settings.env file that store detination dir?
 and whether to do cp or mv ?
 
