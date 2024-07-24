@@ -6,9 +6,7 @@ proc ModulesHelp { } {
 module-whatis "loads the environment for EzCleremont 0.7.0 (biocontainer)"
 
 
-#set ezclermont_DIR /global/software/vector/sl-7.x86_64/modules/ezclermont/0.7.0
 set ezclermont_DIR /global/software/rocky-8.x86_64/manual/modules/apps/bio/ezclermont/0.7.0
-
 setenv ezclermont_DIR $ezclermont_DIR
 prepend-path PATH $ezclermont_DIR
 

@@ -1,0 +1,21 @@
+
+# untested! so chech .SH output before running it!  
+# modfiles go to diff location than modules, thus diff script to deploy them.
+
+# actaully, Sapana/Wei already fixed these, so I should copy them back instead!
+
+# ls check:
+find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print          "ls -l  " $1 "  /global/software/rocky-8.x86_64/manual/modfiles/apps/bio/" $1 }' 
+
+find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print          "ls -l /global/software/rocky-8.x86_64/manual/modfiles/apps/bio/" $1 " ./" $1 }' 
+
+find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print          "cp -p /global/software/rocky-8.x86_64/manual/modfiles/apps/bio/" $1 " ./" $1 }' 
+
+# XX next maybe future use if git repo is the more updated version... double check when the time come...
+# XX find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print "rsync -vaurtxHD " $1 "  /global/software/rocky-8.x86_64/manual/modfiles/apps/bio/" $1 }'  > DEPLOY_MODfiles.SH
+
+
+
+
+
+# paup is a sym link, not currently updateing, figure out later if update is needed.  (no shell wrapper for paup)

@@ -6,7 +6,7 @@ proc ModulesHelp { } {
 module-whatis "loads the environment for mlst 2.19.0"
 
 
-set MLST_DIR /global/software/vector/sl-7.x86_64/modules/mlst/2.19.0/
+set MLST_DIR /global/software/rocky-8.x86_64/manual/modules/apps/bio/mlst/2.19.0/
 setenv MLST_DIR $MLST_DIR
 prepend-path PATH $MLST_DIR
 
