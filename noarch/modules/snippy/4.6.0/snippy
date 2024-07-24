@@ -1,1 +1,2 @@
-singularity exec /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/snippy/4.6.0/snippy.sif /usr/local/bin/snippy $*
+singularity exec /global/software/rocky-8.x86_64/manual/modules/apps/bio/snippy/4.6.0/snippy.sif /usr/local/bin/snippy $*
+#singularity exec /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/snippy/4.6.0/snippy.sif /usr/local/bin/snippy $*

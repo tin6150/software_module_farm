@@ -5,6 +5,7 @@ proc ModulesHelp { } {
 
 module-whatis "loads the environment for abricate 1.0.1, this variant with JGRG DB"
 
-set APP_DIR /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/abricate/1.0.1-jgrg
+#set APP_DIR /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/abricate/1.0.1-jgrg
+set APP_DIR /global/software/rocky-8.x86_64/manual/modules/apps/bio/abricate/1.0.1-jgrg
 setenv APP_DIR $APP_DIR
 prepend-path PATH $APP_DIR

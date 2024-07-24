@@ -1,0 +1,14 @@
+
+# untested! so chech .SH output before running it!  
+
+# ls check:
+find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print          "ls -l  " $1 "  /global/software/rocky-8.x86_64/manual/modules/apps/bio/" $1 }' 
+
+# actually deploy (via cp; hmm... rsync could just sync the whole enchilada?):
+find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print "rsync -vaurtxHD " $1 "  /global/software/rocky-8.x86_64/manual/modules/apps/bio/" $1 }'  > DEPLOY.SH
+
+
+
+
+
+# paup is a sym link, not currently updateing, figure out later if update is needed.  (no shell wrapper for paup)

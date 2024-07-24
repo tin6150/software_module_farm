@@ -5,6 +5,7 @@ proc ModulesHelp { } {
 
 module-whatis "loads the environment for phylotool from Ubuntu 20.04 (NCLconverter art beast2-mcmc clearcut clustalo clustalw clustalx examl figtree iqtree mafft mb metaphlan2 muscle njplot phast phyml prokka raxmlHPC roary run_gubbins seaview snp-sites squizz sumtrees tree-puzzle)"
 
-set APP_DIR /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/phylotool/u20.04
+#set APP_DIR /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/phylotool/u20.04
+set APP_DIR /global/software/rocky-8.x86_64/manual/modules/apps/bio/phylotool/u20.04
 setenv APP_DIR $APP_DIR
 prepend-path PATH $APP_DIR

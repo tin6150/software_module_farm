@@ -21,3 +21,4 @@ tin@berkeley.edu
 ln -s paup4.sif paup
 ln -s paup4a168_ubuntu64 paup_ubuntu_link
 
+# ie no shell wrapper script used with this program, running the SIF file directly invoke paup and runs fine

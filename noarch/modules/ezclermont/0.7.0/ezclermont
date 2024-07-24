@@ -1,5 +1,6 @@
-singularity  exec /global/software/vector/sl-7.x86_64/modules/ezclermont/0.7.0/ezclermont.sif /usr/local/bin/ezclermont $*
+singularity  exec /global/software/rocky-8.x86_64/manual/modules/apps/bio/ezclermont/0.7.0/ezclermont.sif /usr/local/bin/ezclermont $*
 
+# singularity  exec /global/software/vector/sl-7.x86_64/modules/ezclermont/0.7.0/ezclermont.sif /usr/local/bin/ezclermont $*
 # singularity  exec /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/modules/mlst/2.19.0/mlst.sif  /usr/local/bin/mlst $*
 
 #singularity  exec /clusterfs/vector/home/groups/software/sl-7.x86_64/modules/abricate/1.0.1/abricate.sif /usr/local/bin/abricate $*
