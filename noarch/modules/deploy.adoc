@@ -12,3 +12,14 @@ find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print "rsync -vaurtxHD " $
 
 
 # paup is a sym link, not currently updateing, figure out later if update is needed.  (no shell wrapper for paup)
+
+
+# phylotool is setup very differently and need separate handling process.  fixed manually for now 2024.0724
+# n0152.lr7# cd /global/home/users/tin/tin-gh/software_module_farm/noarch/modules 
+# cp -p  ./phylotool/u20.04/ReadMe.txt  /global/software/rocky-8.x86_64/manual/modules/apps/bio/./phylotool/u20.04/ReadMe.txt
+#                                                                       ^^^^^^ 
+
+# the manual folder path version get synced to /local/spack-remote (done by Sapana) which eventually get to login nodes for testing.
+# I get to test with lrc login nodes after Sapana do this step
+# then JW does a sync to make avail to all nodes (and to brc).
+
