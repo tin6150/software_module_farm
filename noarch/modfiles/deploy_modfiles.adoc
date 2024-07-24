@@ -11,6 +11,8 @@ find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print          "ls -l /glo
 
 find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print          "cp -p /global/software/rocky-8.x86_64/manual/modfiles/apps/bio/" $1 " ./" $1 }' 
 
+# note the path include /manual/ before modfiles.  actual user SMF does not include that.
+
 # XX next maybe future use if git repo is the more updated version... double check when the time come...
 # XX find . -type f | egrep -vi .sif\|.txt\|deploy | awk '{print "rsync -vaurtxHD " $1 "  /global/software/rocky-8.x86_64/manual/modfiles/apps/bio/" $1 }'  > DEPLOY_MODfiles.SH
 

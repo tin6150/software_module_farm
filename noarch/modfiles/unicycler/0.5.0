@@ -1,0 +1,12 @@
+#%Module1.0
+proc ModulesHelp { } {
+        puts stderr "loads the environment for unicycler 0.0.5 -- from bioconductor container"
+}
+
+module-whatis "loads the environment for unicycler 0.5.0"
+
+
+set UNICYCLER_DIR /global/software/rocky-8.x86_64/manual/modules/apps/bio/unicycler/0.5.0
+setenv UNICYCLER_DIR $UNICYCLER_DIR
+prepend-path PATH $UNICYCLER_DIR
+
