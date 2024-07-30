@@ -30,6 +30,7 @@ touch /etc/resolv.conf
 # /usr/local/lib/python3.6/site-packages/mob_suite/databases/data.zip
 
 #nope# singularity exec --bind $PWD:/mnt/mob_recon $INSTALL_BASEDIR/mob_suite.sif mob_init 
+#try:  singularity exec --bind $PWD:/mnt/          $INSTALL_BASEDIR/mob_suite.sif mob_init 
 
 
 singularity exec --bind /etc/resolv.conf --bind ./databases:/usr/local/lib/python3.6/site-packages/mob_suite/databases/ $INSTALL_BASEDIR/mob_suite.sif mob_init 

@@ -1,0 +1,30 @@
+
+# trying docker ... since singularity could not run the mob_init and write... 
+
+# weasel wsl in this smf dir.
+
+
+latest_tag=1.4.1--py36_0
+
+latest_tag=$(curl -H "Authorization: Bearer X" -X GET "https://quay.io/api/v1/repository/biocontainers/mob_suite/tag/" | jq .tags[].name | head -1 | sed -e 's|\"||g')
+docker pull quay.io/biocontainers/mob_suite:${latest_tag} 
+
+
+# docker run --rm -v $(pwd):/mnt/ "kbessonov/mob_suite:${latest_tag}" mob_init 
+# docker run --rm -v $(pwd):/mnt/ "kbessonov/mob_suite:${latest_tag}" mob_recon -i /mnt/assembly.fasta -t -o /mnt/mob_recon_output
+
+
+docker run --rm -v $(pwd):/mnt/  quay.io/biocontainers/mob_suite:1.4.1--py36_0  mob_init 
+# will db be saved to /mnt ?
+
+
+# also fail with same error msg seen in singularity :-\
+2024-07-30 05:20:36,998 INFO: Initilizating databases...this will take some time [in /usr/local/lib/python3.6/site-packages/mob_suite/mob_init.py:57]
+Traceback (most recent call last):
+  File "/usr/local/bin/mob_init", line 11, in <module>
+    load_entry_point('mob-suite==1.4.1', 'console_scripts', 'mob_init')()
+  File "/usr/local/lib/python3.6/site-packages/mob_suite/mob_init.py", line 87, in main
+    f.write("Download date: {}".format(datetime.datetime.today().strftime('%Y-%m-%d')))
+  File "/usr/local/lib/python3.6/gzip.py", line 260, in write
+    data = memoryview(data)
+TypeError: memoryview: a bytes-like object is required, not 'str'
