@@ -13,6 +13,9 @@ echo $latest_version
 singularity pull mob_suite.sif docker://quay.io/biocontainers/mob_suite:${latest_version}
 
 
+# need `makeblastdb`, seems to be avail from blast+ (ie newer blast pkg has this cmd)
+apt install ncbi-blast+
+
 # no db install yet.
 
 #XX DB_DIR=/global/home/users/tin/gs/dataCache    # savio tmp
@@ -36,4 +39,10 @@ touch /etc/resolv.conf
 singularity exec --bind /etc/resolv.conf --bind ./databases:/usr/local/lib/python3.6/site-packages/mob_suite/databases/ $INSTALL_BASEDIR/mob_suite.sif mob_init 
 
 # downloading...   crapped with some strange error (bad code? shouldn't be...)   try docker process instead, more writable container, though ephemeral...
+
+
+#///
+
+# local install  eg wsl
+export PATH=$HOME/.local/bin:$PATH
 
