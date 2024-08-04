@@ -1,0 +1,8 @@
+
+
+(base) MacBook-Pro:~ jr$ python3 -m venv mob_suite_venv
+(base) MacBook-Pro:~ jr$ source ./mob_suite_venv/bin/activate
+(mob_suite_venv) (base) MacBook-Pro:~ jr$ pip3 install mob_suite 
+
+# install the dependencies!  mash!  (back to wsl with that first...)
+# ubuntu can apt install mash, not brew
