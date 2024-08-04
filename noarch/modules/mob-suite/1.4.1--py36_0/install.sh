@@ -15,6 +15,7 @@ singularity pull mob_suite.sif docker://quay.io/biocontainers/mob_suite:${latest
 
 # need `makeblastdb`, seems to be avail from blast+ (ie newer blast pkg has this cmd)
 apt install ncbi-blast+
+# pay attention to dependencies!  need mast v2.0  (and blast+ v 2.3.0
 
 # no db install yet.
 
